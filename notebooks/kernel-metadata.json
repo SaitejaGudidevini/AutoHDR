@@ -1,0 +1,14 @@
+{
+  "id": "saitejacore/autohdr-lens-correction-v3",
+  "title": "autohdr-lens-correction-v3",
+  "code_file": "lens_correction_v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "accelerator": "gpu",
+  "enable_internet": true,
+  "competition_sources": ["automatic-lens-correction"],
+  "dataset_sources": ["saitejacore/autohdr-distortion-params", "saitejacore/resnet50-pretrained-weights"],
+  "kernel_sources": []
+}

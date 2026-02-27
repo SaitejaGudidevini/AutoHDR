@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+
+# Data files (too large for git)
+data/
+kaggle-dataset/
+kaggle-weights/
+lens-correction-train-cleaned/
+lens-correction-train-cleaned.zip
+test-originals/
+test-originals.zip
+
+# All image outputs
+**/outputs/corrected/
+**/corrected/*.jpg
+
+# Model weights
+*.pth
+*.pt
+*.onnx
+
+# OS files
+.DS_Store
+~$*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
